@@ -243,3 +243,19 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+/*新增样式*/
+.me{
+  border: .5rem solid;
+  border-radius: 2.1rem;
+  height: 13rem;
+  left: 8rem;
+  position: absolute;
+  top: 1rem;
+  width: 13rem;
+
+}
+.pic{
+  background: url('../images/me.png') no-repeat 3.5rem,0;
+  height: 6.5rem;
+  width: 13rem;
+}
