@@ -1,44 +1,125 @@
+<!--html5声明-->
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-cn">
 <head>
+    <!--       元数据   -->
+    <!--编码格式-->
     <meta charset="UTF-8">
-    <title>Weblongzhao.GitHub.io by weblongzhao</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <!--响应式元数据-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <!--                 兼容性-->
+    <!--ie8一下浏览器开启高速渲染模式-->
+    <meta http-equiv="x-ua-compatible" content="IE=Edge,chrome=1">
+    <!--ie 下的html5 兼容脚本-->
+    <!--[if IE]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--        SEO优化-->
+    <meta name="author" content="作者">
+    <meta name="keywords" content="关键字">
+    <meta name="description" content="描述信息">
+    <!--         样式                -->
+    <!--导航图标-->
+
+    <title>Title</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/resume.css">
 </head>
 <body>
-<section class="page-header">
-    <h1 class="project-name">欢迎访问My Page</h1>
-    <div class="me">
-        <div class="pic">
+        <div class="container">
+            <header class="page-header">
+                <h1 class="capitalize">
+                    Resume
+                    <small>龙钊</small>
+                </h1>
+            </header>
+            <div class="row">
+                <div class="col-sm-3 ">
+                    <div class="row"  >
+                            <blockquote>
+                                <p class="text-info">个人信息</p>
+                                <small>Personal info</small>
+                            </blockquote>
+                            <img  src="https://weblongzhao.github.io/images/me2.jpg" class="img-responsive" alt="resume">
+                            <section class="text-center">
+                                <span class="lead text-primary"></span>
+                            </section>
+                    </div>
+                    <div class="row">
+                            <blockquote>
+                                <p class="text-info">教育经历</p>
+                                <small>Edu Exp</small>
+                            </blockquote>
+                            <table class="table table-responsive">
+                                <tr class="">
+                                    <td >2013/9-2016/6</td>
+                                </tr>
+                                <tr class="active">
+                                    <td>邢台职业技术学院&nbsp;&nbsp;专科</td>
+                                </tr>
+                            </table>
+                    </div>
+                    <div class="row">
+                            <blockquote>
+                                <p class="text-danger">联系方式</p>
+                                <small>contact me</small>
+                            </blockquote>
+                            <section>
+                                <address>
+                                    <span class="text-info">通信地址:</span>
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    <span class="text-info">海淀区</span>
+                                    <br>
+                                    <span class="text-info">联系方式:</span>
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    <span class="text-info">longzhao135@163.com</span>
+                                    <br>
+                                </address>
+                            </section>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                     <div class="row ">
+                            <div class="jumbotron">
+                                    <p>熟练掌握HTML+DIV布局</p>
+                                    <p>熟悉HTML5,CSS3,JavaScript</p>
+                                    <p>了解Jquery,Bootstrap</p>
+                            </div>
+                     </div>
+
+                    <div class="row">
+                        <p class="page-header">
+                            <h3 class="text-success">作品展示 </h3>
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a  href="https://weblongzhao.github.io/html/jiguo" class=""><img src="https://weblongzhao.github.io/images/jiguo.jpg" alt="" class="img-thumbnail img-responsive"></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="https://weblongzhao.github.io/html/porsche/"><img src="https://weblongzhao.github.io/images/porsche.jpg" alt="" class="img-thumbnail img-responsive"></a>
+                            </div>
+                            <div class="col-sm-4" >
+                                <a href="https://weblongzhao.github.io/html/juhuasuan"><img src="https://weblongzhao.github.io/images/juhuasuan.jpg" alt="" class="img-thumbnail img-responsive"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--尾部-->
+            <footer class="row navbar-bottom text-center">
+                <div class="">
+                    <br>
+                    <span class="">&copy;2016 &nbsp;使用Bootstrap搭建</span>
+                </div>
+            </footer>
         </div>
-        <div class="info">
-            <p>姓名:&mumap; 龙昭</p>
-            <p>敢于创新，不断突破极限</p>
-        </div>
-    </div>
-</section>
-<section class="main-content">
-    <div class="wrap-show">
-        <h3>practice</h3>
-        <div class="show">
-            <ul>
-                <li><a href="../html/jiguo/index.html" class="font">极果网</a></li>
-                <li><a href="../html/porsche/index.html" class="font">保时捷</a></li>
-                <li><a href="../html/juhuasuan/index.html" class="font">聚划算</a></li>
-            </ul>
-        </div>
-    </div>
-    <footer class="site-footer">
 
-        <span class="site-footer-credits">开启前端学习之路，未完待续...</span>
-    </footer>
-
-</section>
-
-
+<!--            脚本文件    -->
+<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
